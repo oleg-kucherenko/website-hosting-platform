@@ -1,0 +1,31 @@
+/* Mobile */
+/* Applied for range [0px, 500px] */
+
+@media(max-width: 500px) {
+  /* Navbar */
+  .navbar {
+    height: 110px;
+  }
+
+  /* Navbar > WidthContainer > PositionContainer */
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  /* Navbar > WidthContainer > PositionContainer > Links */
+  .navbar ul {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /* Showcase > WidthContainer > PositionContainer > TextContainer */
+.showcase-text h1 {
+  font-size: 28px;
+}
+
+/* Showcase > WidthContainer > PositionContainer > FormContainer */
+.showcase-form {
+  width: 300px;
+  padding: 20px; 
+}
+
+}

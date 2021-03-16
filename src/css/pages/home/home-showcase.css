@@ -1,0 +1,81 @@
+/* Showcase */
+.showcase {
+  height: 400px;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative;
+}
+
+/* .showcase::before, */
+.showcase::after {
+  content: '';
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+}
+
+/* Showcase > WidthContainer > PositionContainer */
+.showcase .grid {
+  height: 100%;
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+  overflow: visible;
+  padding-top: 40px;
+}
+
+/* Showcase > WidthContainer > PositionContainer > TextContainer */
+.showcase-text h1 {
+  font-size: 40px;
+}
+
+.showcase-text p {
+  margin: 20px 0;
+}
+
+/* Showcase > WidthContainer > PositionContainer > TextContainer > Animation */
+.showcase-text {
+  animation: slideInFromLeft 0.8s ease-in;
+}
+
+/* Showcase > WidthContainer > PositionContainer > FormContainer */
+.showcase-form {
+  height: 350px;
+  width: 400px;
+  position: relative;
+  /* top: 60px; */
+  padding: 40px; 
+  z-index: 100;
+  justify-self: flex-end;  
+  overflow: visible;
+}
+
+.showcase-form .form-control {
+  margin: 30px 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.showcase-form input:focus {
+  outline: none;
+}
+
+/* Showcase > WidthContainer > PositionContainer > FormContaine > Animation */
+.showcase-form {
+  animation: slideInFromRight 1s ease-in;
+}
+
+/* /Showcase */

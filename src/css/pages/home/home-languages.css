@@ -1,0 +1,24 @@
+/* Languages */
+
+/* Languages > WidthContainer > IconsContainer */
+.languages-icons.flex {
+  flex-wrap: wrap;
+}
+
+.languages-icons .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+
+  transition: transform 0.2s ease-in;
+}
+
+.languages-icons .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages-icons .card:hover {
+  transform: translateY(-15px);
+}
+
+/* /Languages */

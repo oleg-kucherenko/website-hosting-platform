@@ -1,0 +1,9 @@
+/* Head */
+
+/* Head > WidthContainer > PositionContainer > Image */
+.head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+/* /Head */

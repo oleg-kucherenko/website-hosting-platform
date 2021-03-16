@@ -1,0 +1,7 @@
+/* Cloud */
+
+/* Cloud > WidthContainer > PositionContainer */
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+/* /Cloud */

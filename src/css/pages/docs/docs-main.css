@@ -1,0 +1,29 @@
+@import '../../components/alert.css';
+@import '../../components/code.css';
+
+/* Docs */
+
+/* Docs > WidthContainer > PositionContainer */
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+}
+
+/* Docs > WidthContainer > PositionContainer > Navigation */
+.docs-nav li {
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.docs-nav li a:hover {
+  font-weight: bold;
+}
+
+/* Docs > WidthContainer > PositionContainer > Content */
+.docs-content h3 {
+  margin: 20px 0;
+}
+
+/* /Docs */

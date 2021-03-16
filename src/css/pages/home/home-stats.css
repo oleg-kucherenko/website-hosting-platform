@@ -1,0 +1,28 @@
+/* Stats */
+
+.stats {
+  padding-top: 80px;
+}
+
+/* Stats > WidthContainer > HeadingContainer */
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Stats > WidthContainer > IconsContainer */
+.icon-numbers {
+  font-size: 35px;
+}
+
+.icon-description {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Stats > Animation */
+.stats {
+  animation: slideInFromBottom 1.2s ease-in;
+}
+
+/* /Stats */

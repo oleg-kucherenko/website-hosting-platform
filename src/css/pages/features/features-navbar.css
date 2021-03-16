@@ -1,0 +1,33 @@
+/* Navbar */
+
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 70px;
+}
+
+/* Navbar > WidthContainer > PositionContainer */
+.navbar .flex {
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+/* Navbar > WidthContainer > PositionContainer > Links */
+.navbar-links ul {
+  display: flex;
+}
+
+.navbar-links a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+  display: block;
+  border-bottom: 2px solid transparent;
+
+  transition: 0.2s;
+}
+
+.navbar-links a:hover {
+  border-bottom: 2px solid #fff;
+}
+/* /Navbar */

@@ -1,0 +1,10 @@
+@import '../../components/button.css';
+@import '../../components/card.css';
+
+@import './docs-navbar.css';
+@import './docs-head.css';
+@import './docs-main.css';
+@import './docs-footer.css';
+
+@import './responsive/docs-mobile.css';
+@import './responsive/docs-tablet.css';

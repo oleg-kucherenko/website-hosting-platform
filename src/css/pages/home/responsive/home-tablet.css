@@ -1,0 +1,83 @@
+/* Tablets and under */
+/* Applied for range [0px, 950px] */
+
+@media(max-width: 950px) {  
+  .grid,
+  .showcase .grid, 
+  .stats .grid,
+  .cli .grid,
+  .cloud .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  /* Showcase */
+  .showcase {
+    height: auto;
+  }
+
+  .showcase::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+  }
+
+  .showcase .grid {
+    justify-items: center;
+    padding-top: 0;
+  }
+
+  /* Showcase > WidthContainer > PositionContainer > TextContainer */
+  .showcase-text {
+    text-align: center;
+    margin-top: 40px;
+    max-width: 600px;
+  }
+
+  /* Showcase > WidthContainer > PositionContainer > FormContainer */
+  .showcase-form {
+    justify-self: center;
+  }
+
+
+  /* Stats */
+  .stats {
+    padding-top: 50px;
+  }
+
+  
+  /* Cli */
+  .cli {
+    margin-bottom: 50px;
+  }
+
+  /* Cli > WidthContainer > PositionContainer */
+  .cli .grid > *:first-child {
+    grid-column: 1;
+    grid-row: 1;  
+  }
+
+
+  /* Cloud */
+  .cloud {
+    padding-top: 40px;
+  }
+
+  /* Cloud > WidthContainer > PositionContainer */
+  .cloud .grid {
+    justify-items: center;
+  }
+
+  /* Cloud > WidthContainer > PositionContainer > Image */
+  .cloud img {
+    width: 70%;
+  }
+}

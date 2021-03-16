@@ -1,0 +1,18 @@
+/* Footer */
+
+/* Footer > WidthContainer > PositionContainer > LinksContainer */
+/* Footer > WidthContainer > PositionContainer > SocialIconsContainer */
+.footer a {
+  color: #fff;
+}
+
+/* Footer > WidthContainer > PositionContainer > SocialIconsContainer */
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons a:first-child {
+  margin-left: 0;
+}
+
+/* /Footer */
